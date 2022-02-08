@@ -13,6 +13,9 @@ export default function Hooks() {
   useEffect(() => {
     console.log('ejecutando useEffect');
   }, [cuenta]); // lo que le pasemos aca es lo que va a escuchar los cambios
+  // [] escucha el inicio del componente
+  // vacio escucha TODOS los cambios que haya en el componente
+
   return (
     <div>
       {cuenta === 0 ? (
