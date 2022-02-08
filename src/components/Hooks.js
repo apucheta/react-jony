@@ -10,6 +10,9 @@ export default function Hooks() {
     setCuenta(cuenta + 1);
     console.log(cuenta);
   };
+  useEffect(() => {
+    console.log('ejecutando useEffect');
+  }, [cuenta]); // lo que le pasemos aca es lo que va a escuchar los cambios
   return (
     <div>
       {cuenta === 0 ? (
