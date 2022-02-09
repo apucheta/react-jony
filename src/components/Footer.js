@@ -4,7 +4,7 @@ export class Footer extends Component {
   render() {
     return (
       <div className='footer'>
-        <h1>Soy el footer, mi pana</h1>
+        <p>Soy el famoso FUTTTAH</p>
       </div>
     );
   }
